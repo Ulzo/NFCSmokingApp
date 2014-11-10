@@ -1,0 +1,94 @@
+<!--Notes:
+	For NextQues or DefaultNextQues: 0 specifies that current question is end of survey
+	Radio Button conditions: numbers ONLY (1+)
+	Check Boxes conditions: numbers 1-5 separated by "&" 
+	Slider Conditions: - [less than] (number) OR + [greater than] (number) OR > (num) & < (num) 
+-->
+
+<Survey>
+<Question>
+	<QuesID> 1 </QuesID>
+	<SubID> </SubID>
+	<QuestionString>How long ago did you finish smoking?</QuestionString>
+	<QuesType>Button</QuesType>
+	<NumOfChoices> 7
+		<Choices>
+			<choice>1 minute</choice>
+			<choice>2-5 minutes</choice>
+			<choice>6-15 minutes</choice>
+			<choice>16-30 minutes</choice>
+			<choice>31-45 minutes</choice>
+			<choice>46-60 minutes</choice>
+			<choice>60+ minutes</choice>
+		</Choices>
+	</NumOfChoices>
+	<SliderScale>
+		<Start>
+			<StartNum> </StartNum>
+			<StartLabel> </StartLabel>
+		</Start>
+		<End>
+			<EndNum> </EndNum>
+			<EndLabel> </EndLabel>
+		</End>
+		<NumOfDivisions> </NumOfDivisions>
+	</SliderScale>
+	<RadioButtons>
+		<Condition>
+			<NextQuestion></NextQuestion>
+		</Condition>
+	</RadioButtons>
+	<CheckBoxes>
+		<Condition>
+			<NextQuestion> </NextQuestion>
+		</Condition>
+	</CheckBoxes>
+	<SliderScale>
+		<Condition>
+			<NextQuestion> </NextQuestion>
+		</Condition>
+	</SliderScale>
+	<DefaultNext>2</DefaultNext>
+</Question>
+
+<Question>
+	<QuesID> 2 </QuesID>
+	<SubID> </SubID>
+	<QuestionString>When Smoking: How much did you smoke?</QuestionString>
+	<QuesType>Button</QuesType>
+	<NumOfChoices> 3
+		<Choices>
+			<choice>Less than one cigarette</choice>
+			<choice>One cigarette</choice>
+			<choice>More than one cigarette</choice>
+		</Choices>
+	</NumOfChoices>
+	<SliderScale>
+		<Start>
+			<StartNum> </StartNum>
+			<StartLabel> </StartLabel>
+		</Start>
+		<End>
+			<EndNum> </EndNum>
+			<EndLabel> </EndLabel>
+		</End>
+		<NumOfDivisions> </NumOfDivisions>
+	</SliderScale>
+	<RadioButtons>
+		<Condition>
+			<NextQuestion></NextQuestion>
+		</Condition>
+	</RadioButtons>
+	<CheckBoxes>
+		<Condition>
+			<NextQuestion> </NextQuestion>
+		</Condition>
+	</CheckBoxes>
+	<SliderScale>
+		<Condition>
+			<NextQuestion> </NextQuestion>
+		</Condition>
+	</SliderScale>
+	<DefaultNext>3</DefaultNext>
+</Question>
+</Survey>

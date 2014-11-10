@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="classdom_1_1parser_d_o_m" kind="class" prot="public">
+    <compoundname>dom::parserDOM</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdom_1_1parser_d_o_m_1ad2a42f3385e9274826b8d9acbc0f1cb8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void dom.parserDOM.getAllQuestions</definition>
+        <argsstring>(String fileName)</argsstring>
+        <name>getAllQuestions</name>
+        <param>
+          <type>String</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="26" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="26" bodyend="297"/>
+      </memberdef>
+      <memberdef kind="function" id="classdom_1_1parser_d_o_m_1a6a2b93ad9c1d7df4389acfb72b8eaae0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void dom.parserDOM.printElementText</definition>
+        <argsstring>(Element e, String tagName)</argsstring>
+        <name>printElementText</name>
+        <param>
+          <type>Element</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>tagName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="303" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="302" bodyend="308"/>
+      </memberdef>
+      <memberdef kind="function" id="classdom_1_1parser_d_o_m_1a62ef7cc4cb3aa12ffc13ad438a1a4a60" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String dom.parserDOM.extractElementText</definition>
+        <argsstring>(Element e, String tagName)</argsstring>
+        <name>extractElementText</name>
+        <param>
+          <type>Element</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>tagName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="313" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="312" bodyend="317"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classdom_1_1parser_d_o_m_1af5173cf0851432cba3a91a90d69c1c4c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void dom.parserDOM.main</definition>
+        <argsstring>(String[] args)</argsstring>
+        <name>main</name>
+        <param>
+          <type>String[]</type>
+          <declname>args</declname>
+        </param>
+        <exceptions> throws Exception </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="320" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="320" bodyend="324"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="23" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="23" bodyend="326"/>
+    <listofallmembers>
+      <member refid="classdom_1_1parser_d_o_m_1a62ef7cc4cb3aa12ffc13ad438a1a4a60" prot="public" virt="non-virtual"><scope>dom::parserDOM</scope><name>extractElementText</name></member>
+      <member refid="classdom_1_1parser_d_o_m_1ad2a42f3385e9274826b8d9acbc0f1cb8" prot="public" virt="non-virtual"><scope>dom::parserDOM</scope><name>getAllQuestions</name></member>
+      <member refid="classdom_1_1parser_d_o_m_1af5173cf0851432cba3a91a90d69c1c4c" prot="public" virt="non-virtual"><scope>dom::parserDOM</scope><name>main</name></member>
+      <member refid="classdom_1_1parser_d_o_m_1a6a2b93ad9c1d7df4389acfb72b8eaae0" prot="public" virt="non-virtual"><scope>dom::parserDOM</scope><name>printElementText</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="classdom_1_1_question_1_1slider_cond" kind="class" prot="package">
+    <compoundname>dom::Question::sliderCond</compoundname>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classdom_1_1_question_1_1slider_cond_1ae3d0ff7dd0e781dfacb0b6933a36e731" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dom.Question.sliderCond.upperLim</definition>
+        <argsstring></argsstring>
+        <name>upperLim</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="512" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="512" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdom_1_1_question_1_1slider_cond_1a62385bea01650ea89a6762b404355684" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dom.Question.sliderCond.lowerLim</definition>
+        <argsstring></argsstring>
+        <name>lowerLim</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="513" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="513" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdom_1_1_question_1_1slider_cond_1a13d941ac6182cedc5ffd7a8756eda803" prot="package" static="no" mutable="no">
+        <type>String</type>
+        <definition>String dom.Question.sliderCond.nextQues</definition>
+        <argsstring></argsstring>
+        <name>nextQues</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="514" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="514" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdom_1_1_question_1_1slider_cond_1ac3ce8c4e4592820226ef59c0b681c16b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int dom.Question.sliderCond.getUpperLim</definition>
+        <argsstring>()</argsstring>
+        <name>getUpperLim</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="516" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="516" bodyend="518"/>
+      </memberdef>
+      <memberdef kind="function" id="classdom_1_1_question_1_1slider_cond_1a1cef77bb37441752f2ff4772e8cdca9a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void dom.Question.sliderCond.setUpperLim</definition>
+        <argsstring>(int u)</argsstring>
+        <name>setUpperLim</name>
+        <param>
+          <type>int</type>
+          <declname>u</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="519" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="519" bodyend="521"/>
+      </memberdef>
+      <memberdef kind="function" id="classdom_1_1_question_1_1slider_cond_1afdaa69b4fc5738ea7770ef5e7c513b12" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int dom.Question.sliderCond.getLowerLim</definition>
+        <argsstring>()</argsstring>
+        <name>getLowerLim</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="523" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="523" bodyend="525"/>
+      </memberdef>
+      <memberdef kind="function" id="classdom_1_1_question_1_1slider_cond_1a4ed970fd92bce6f1bdc97f5ae9fcff52" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void dom.Question.sliderCond.setLowerLim</definition>
+        <argsstring>(int w)</argsstring>
+        <name>setLowerLim</name>
+        <param>
+          <type>int</type>
+          <declname>w</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="526" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="526" bodyend="528"/>
+      </memberdef>
+      <memberdef kind="function" id="classdom_1_1_question_1_1slider_cond_1acd2f21383479f9b5f367068a4457f4bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String dom.Question.sliderCond.getNextQues</definition>
+        <argsstring>()</argsstring>
+        <name>getNextQues</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="530" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="530" bodyend="532"/>
+      </memberdef>
+      <memberdef kind="function" id="classdom_1_1_question_1_1slider_cond_1a5fbe3ec0d567b277038ce0a801c2d797" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void dom.Question.sliderCond.setNextQues</definition>
+        <argsstring>(String nextQues)</argsstring>
+        <name>setNextQues</name>
+        <param>
+          <type>String</type>
+          <declname>nextQues</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="533" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="533" bodyend="535"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="511" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="510" bodyend="536"/>
+    <listofallmembers>
+      <member refid="classdom_1_1_question_1_1slider_cond_1afdaa69b4fc5738ea7770ef5e7c513b12" prot="public" virt="non-virtual"><scope>dom::Question::sliderCond</scope><name>getLowerLim</name></member>
+      <member refid="classdom_1_1_question_1_1slider_cond_1acd2f21383479f9b5f367068a4457f4bf" prot="public" virt="non-virtual"><scope>dom::Question::sliderCond</scope><name>getNextQues</name></member>
+      <member refid="classdom_1_1_question_1_1slider_cond_1ac3ce8c4e4592820226ef59c0b681c16b" prot="public" virt="non-virtual"><scope>dom::Question::sliderCond</scope><name>getUpperLim</name></member>
+      <member refid="classdom_1_1_question_1_1slider_cond_1a62385bea01650ea89a6762b404355684" prot="package" virt="non-virtual"><scope>dom::Question::sliderCond</scope><name>lowerLim</name></member>
+      <member refid="classdom_1_1_question_1_1slider_cond_1a13d941ac6182cedc5ffd7a8756eda803" prot="package" virt="non-virtual"><scope>dom::Question::sliderCond</scope><name>nextQues</name></member>
+      <member refid="classdom_1_1_question_1_1slider_cond_1a4ed970fd92bce6f1bdc97f5ae9fcff52" prot="public" virt="non-virtual"><scope>dom::Question::sliderCond</scope><name>setLowerLim</name></member>
+      <member refid="classdom_1_1_question_1_1slider_cond_1a5fbe3ec0d567b277038ce0a801c2d797" prot="public" virt="non-virtual"><scope>dom::Question::sliderCond</scope><name>setNextQues</name></member>
+      <member refid="classdom_1_1_question_1_1slider_cond_1a1cef77bb37441752f2ff4772e8cdca9a" prot="public" virt="non-virtual"><scope>dom::Question::sliderCond</scope><name>setUpperLim</name></member>
+      <member refid="classdom_1_1_question_1_1slider_cond_1ae3d0ff7dd0e781dfacb0b6933a36e731" prot="package" virt="non-virtual"><scope>dom::Question::sliderCond</scope><name>upperLim</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

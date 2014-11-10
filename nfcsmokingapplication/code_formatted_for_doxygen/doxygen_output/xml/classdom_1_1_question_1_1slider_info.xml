@@ -1,0 +1,293 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="classdom_1_1_question_1_1slider_info" kind="class" prot="package">
+    <compoundname>dom::Question::sliderInfo</compoundname>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classdom_1_1_question_1_1slider_info_1a9ae5a7b46473218da028de96d1caf38b" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dom.Question.sliderInfo.start</definition>
+        <argsstring></argsstring>
+        <name>start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="395" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="395" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdom_1_1_question_1_1slider_info_1a8f58466d2bd3dc4207e4cd11c3e828e0" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dom.Question.sliderInfo.end</definition>
+        <argsstring></argsstring>
+        <name>end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="396" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="396" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdom_1_1_question_1_1slider_info_1ae182034f47e6ede5080f2c4db29275d9" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dom.Question.sliderInfo.numDiv</definition>
+        <argsstring></argsstring>
+        <name>numDiv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="397" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="397" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdom_1_1_question_1_1slider_info_1a9df472f3ad83490fa398558bf25d1dd8" prot="package" static="no" mutable="no">
+        <type>String</type>
+        <definition>String dom.Question.sliderInfo.startLabel</definition>
+        <argsstring></argsstring>
+        <name>startLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="398" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="398" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdom_1_1_question_1_1slider_info_1ae5f518b54b9eee67b0ba062a64aefaf1" prot="package" static="no" mutable="no">
+        <type>String</type>
+        <definition>String dom.Question.sliderInfo.middleLabel</definition>
+        <argsstring></argsstring>
+        <name>middleLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="399" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="399" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdom_1_1_question_1_1slider_info_1a951c1a759e2532c7a43132245c098871" prot="package" static="no" mutable="no">
+        <type>String</type>
+        <definition>String dom.Question.sliderInfo.endLabel</definition>
+        <argsstring></argsstring>
+        <name>endLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="400" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="400" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdom_1_1_question_1_1slider_info_1af6cbec35ac87ecd7f66c0859e9c065aa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int dom.Question.sliderInfo.getStart</definition>
+        <argsstring>()</argsstring>
+        <name>getStart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="402" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="402" bodyend="404"/>
+      </memberdef>
+      <memberdef kind="function" id="classdom_1_1_question_1_1slider_info_1a3e857a6a79019a6eb43f263f6c3de608" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void dom.Question.sliderInfo.setStart</definition>
+        <argsstring>(int start)</argsstring>
+        <name>setStart</name>
+        <param>
+          <type>int</type>
+          <declname>start</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="405" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="405" bodyend="407"/>
+      </memberdef>
+      <memberdef kind="function" id="classdom_1_1_question_1_1slider_info_1ad2f745568479438644e034d885c6e477" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int dom.Question.sliderInfo.getEnd</definition>
+        <argsstring>()</argsstring>
+        <name>getEnd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="408" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="408" bodyend="410"/>
+      </memberdef>
+      <memberdef kind="function" id="classdom_1_1_question_1_1slider_info_1a1cf317f62baadfac74e88eef8e46087c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void dom.Question.sliderInfo.setEnd</definition>
+        <argsstring>(int end)</argsstring>
+        <name>setEnd</name>
+        <param>
+          <type>int</type>
+          <declname>end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="411" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="411" bodyend="413"/>
+      </memberdef>
+      <memberdef kind="function" id="classdom_1_1_question_1_1slider_info_1a42080c82e53937dead25f3b54ded3583" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int dom.Question.sliderInfo.getNumDiv</definition>
+        <argsstring>()</argsstring>
+        <name>getNumDiv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="414" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="414" bodyend="416"/>
+      </memberdef>
+      <memberdef kind="function" id="classdom_1_1_question_1_1slider_info_1a506c6182f96e4d2d18f40136bddaabd6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void dom.Question.sliderInfo.setNumDiv</definition>
+        <argsstring>(int numDiv)</argsstring>
+        <name>setNumDiv</name>
+        <param>
+          <type>int</type>
+          <declname>numDiv</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="417" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="417" bodyend="419"/>
+      </memberdef>
+      <memberdef kind="function" id="classdom_1_1_question_1_1slider_info_1ae2e7d9ef1c9a83395ecef05b2eb939d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String dom.Question.sliderInfo.getStartLabel</definition>
+        <argsstring>()</argsstring>
+        <name>getStartLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="420" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="420" bodyend="422"/>
+      </memberdef>
+      <memberdef kind="function" id="classdom_1_1_question_1_1slider_info_1a0d674d64fd90f85718d438a12e05890f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void dom.Question.sliderInfo.setStartLabel</definition>
+        <argsstring>(String startLabel)</argsstring>
+        <name>setStartLabel</name>
+        <param>
+          <type>String</type>
+          <declname>startLabel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="423" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="423" bodyend="425"/>
+      </memberdef>
+      <memberdef kind="function" id="classdom_1_1_question_1_1slider_info_1a80af163b27114dde6bbeb8ff7687218a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String dom.Question.sliderInfo.getMiddleLabel</definition>
+        <argsstring>()</argsstring>
+        <name>getMiddleLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="426" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="426" bodyend="428"/>
+      </memberdef>
+      <memberdef kind="function" id="classdom_1_1_question_1_1slider_info_1add7571b7dfe427b77d9d33b132362438" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void dom.Question.sliderInfo.setMiddleLabel</definition>
+        <argsstring>(String middleLabel)</argsstring>
+        <name>setMiddleLabel</name>
+        <param>
+          <type>String</type>
+          <declname>middleLabel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="429" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="429" bodyend="431"/>
+      </memberdef>
+      <memberdef kind="function" id="classdom_1_1_question_1_1slider_info_1a0cca46c183efb060d578264caa75c685" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String dom.Question.sliderInfo.getEndLabel</definition>
+        <argsstring>()</argsstring>
+        <name>getEndLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="432" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="432" bodyend="434"/>
+      </memberdef>
+      <memberdef kind="function" id="classdom_1_1_question_1_1slider_info_1a2b21d966f49374d8b6d77fe409f62476" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void dom.Question.sliderInfo.setEndLabel</definition>
+        <argsstring>(String endLabel)</argsstring>
+        <name>setEndLabel</name>
+        <param>
+          <type>String</type>
+          <declname>endLabel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="435" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="435" bodyend="437"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="394" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="393" bodyend="439"/>
+    <listofallmembers>
+      <member refid="classdom_1_1_question_1_1slider_info_1a8f58466d2bd3dc4207e4cd11c3e828e0" prot="package" virt="non-virtual"><scope>dom::Question::sliderInfo</scope><name>end</name></member>
+      <member refid="classdom_1_1_question_1_1slider_info_1a951c1a759e2532c7a43132245c098871" prot="package" virt="non-virtual"><scope>dom::Question::sliderInfo</scope><name>endLabel</name></member>
+      <member refid="classdom_1_1_question_1_1slider_info_1ad2f745568479438644e034d885c6e477" prot="public" virt="non-virtual"><scope>dom::Question::sliderInfo</scope><name>getEnd</name></member>
+      <member refid="classdom_1_1_question_1_1slider_info_1a0cca46c183efb060d578264caa75c685" prot="public" virt="non-virtual"><scope>dom::Question::sliderInfo</scope><name>getEndLabel</name></member>
+      <member refid="classdom_1_1_question_1_1slider_info_1a80af163b27114dde6bbeb8ff7687218a" prot="public" virt="non-virtual"><scope>dom::Question::sliderInfo</scope><name>getMiddleLabel</name></member>
+      <member refid="classdom_1_1_question_1_1slider_info_1a42080c82e53937dead25f3b54ded3583" prot="public" virt="non-virtual"><scope>dom::Question::sliderInfo</scope><name>getNumDiv</name></member>
+      <member refid="classdom_1_1_question_1_1slider_info_1af6cbec35ac87ecd7f66c0859e9c065aa" prot="public" virt="non-virtual"><scope>dom::Question::sliderInfo</scope><name>getStart</name></member>
+      <member refid="classdom_1_1_question_1_1slider_info_1ae2e7d9ef1c9a83395ecef05b2eb939d0" prot="public" virt="non-virtual"><scope>dom::Question::sliderInfo</scope><name>getStartLabel</name></member>
+      <member refid="classdom_1_1_question_1_1slider_info_1ae5f518b54b9eee67b0ba062a64aefaf1" prot="package" virt="non-virtual"><scope>dom::Question::sliderInfo</scope><name>middleLabel</name></member>
+      <member refid="classdom_1_1_question_1_1slider_info_1ae182034f47e6ede5080f2c4db29275d9" prot="package" virt="non-virtual"><scope>dom::Question::sliderInfo</scope><name>numDiv</name></member>
+      <member refid="classdom_1_1_question_1_1slider_info_1a1cf317f62baadfac74e88eef8e46087c" prot="public" virt="non-virtual"><scope>dom::Question::sliderInfo</scope><name>setEnd</name></member>
+      <member refid="classdom_1_1_question_1_1slider_info_1a2b21d966f49374d8b6d77fe409f62476" prot="public" virt="non-virtual"><scope>dom::Question::sliderInfo</scope><name>setEndLabel</name></member>
+      <member refid="classdom_1_1_question_1_1slider_info_1add7571b7dfe427b77d9d33b132362438" prot="public" virt="non-virtual"><scope>dom::Question::sliderInfo</scope><name>setMiddleLabel</name></member>
+      <member refid="classdom_1_1_question_1_1slider_info_1a506c6182f96e4d2d18f40136bddaabd6" prot="public" virt="non-virtual"><scope>dom::Question::sliderInfo</scope><name>setNumDiv</name></member>
+      <member refid="classdom_1_1_question_1_1slider_info_1a3e857a6a79019a6eb43f263f6c3de608" prot="public" virt="non-virtual"><scope>dom::Question::sliderInfo</scope><name>setStart</name></member>
+      <member refid="classdom_1_1_question_1_1slider_info_1a0d674d64fd90f85718d438a12e05890f" prot="public" virt="non-virtual"><scope>dom::Question::sliderInfo</scope><name>setStartLabel</name></member>
+      <member refid="classdom_1_1_question_1_1slider_info_1a9ae5a7b46473218da028de96d1caf38b" prot="package" virt="non-virtual"><scope>dom::Question::sliderInfo</scope><name>start</name></member>
+      <member refid="classdom_1_1_question_1_1slider_info_1a9df472f3ad83490fa398558bf25d1dd8" prot="package" virt="non-virtual"><scope>dom::Question::sliderInfo</scope><name>startLabel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

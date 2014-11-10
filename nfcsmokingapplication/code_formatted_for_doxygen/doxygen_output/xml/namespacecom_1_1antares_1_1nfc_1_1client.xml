@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="namespacecom_1_1antares_1_1nfc_1_1client" kind="namespace">
+    <compoundname>com::antares::nfc::client</compoundname>
+    <innerclass refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_detector_activity" prot="public">com::antares::nfc::client::NfcDetectorActivity</innerclass>
+    <innerclass refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_writer_activity" prot="public">com::antares::nfc::client::NfcWriterActivity</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/NfcDetectorActivity.java" line="1"/>
+  </compounddef>
+</doxygen>

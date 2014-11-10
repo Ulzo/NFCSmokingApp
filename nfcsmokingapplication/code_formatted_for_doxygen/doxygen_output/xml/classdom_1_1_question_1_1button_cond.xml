@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="classdom_1_1_question_1_1button_cond" kind="class" prot="package">
+    <compoundname>dom::Question::buttonCond</compoundname>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classdom_1_1_question_1_1button_cond_1a74e5d46252d10c7661b2cd61907b602a" prot="package" static="no" mutable="no">
+        <type>String</type>
+        <definition>String dom.Question.buttonCond.cond</definition>
+        <argsstring></argsstring>
+        <name>cond</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="450" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="450" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdom_1_1_question_1_1button_cond_1a5631242d3dce7a6c56f087e711a7fc3e" prot="package" static="no" mutable="no">
+        <type>String</type>
+        <definition>String dom.Question.buttonCond.nextQues</definition>
+        <argsstring></argsstring>
+        <name>nextQues</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="451" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="451" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdom_1_1_question_1_1button_cond_1a5b1f8f47de0f679455662546128270a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String dom.Question.buttonCond.getCond</definition>
+        <argsstring>()</argsstring>
+        <name>getCond</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="453" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="453" bodyend="455"/>
+      </memberdef>
+      <memberdef kind="function" id="classdom_1_1_question_1_1button_cond_1a828db1a130f96fc1de1d3276767118f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void dom.Question.buttonCond.setCond</definition>
+        <argsstring>(String cond)</argsstring>
+        <name>setCond</name>
+        <param>
+          <type>String</type>
+          <declname>cond</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="456" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="456" bodyend="458"/>
+      </memberdef>
+      <memberdef kind="function" id="classdom_1_1_question_1_1button_cond_1ae1c2027313e707378d21c282a01f0f4d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String dom.Question.buttonCond.getNextQues</definition>
+        <argsstring>()</argsstring>
+        <name>getNextQues</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="459" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="459" bodyend="461"/>
+      </memberdef>
+      <memberdef kind="function" id="classdom_1_1_question_1_1button_cond_1a22297083c38d0dd489b07e3001b4d14b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void dom.Question.buttonCond.setNextQues</definition>
+        <argsstring>(String nextQues)</argsstring>
+        <name>setNextQues</name>
+        <param>
+          <type>String</type>
+          <declname>nextQues</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="462" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="462" bodyend="464"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="449" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="448" bodyend="465"/>
+    <listofallmembers>
+      <member refid="classdom_1_1_question_1_1button_cond_1a74e5d46252d10c7661b2cd61907b602a" prot="package" virt="non-virtual"><scope>dom::Question::buttonCond</scope><name>cond</name></member>
+      <member refid="classdom_1_1_question_1_1button_cond_1a5b1f8f47de0f679455662546128270a9" prot="public" virt="non-virtual"><scope>dom::Question::buttonCond</scope><name>getCond</name></member>
+      <member refid="classdom_1_1_question_1_1button_cond_1ae1c2027313e707378d21c282a01f0f4d" prot="public" virt="non-virtual"><scope>dom::Question::buttonCond</scope><name>getNextQues</name></member>
+      <member refid="classdom_1_1_question_1_1button_cond_1a5631242d3dce7a6c56f087e711a7fc3e" prot="package" virt="non-virtual"><scope>dom::Question::buttonCond</scope><name>nextQues</name></member>
+      <member refid="classdom_1_1_question_1_1button_cond_1a828db1a130f96fc1de1d3276767118f0" prot="public" virt="non-virtual"><scope>dom::Question::buttonCond</scope><name>setCond</name></member>
+      <member refid="classdom_1_1_question_1_1button_cond_1a22297083c38d0dd489b07e3001b4d14b" prot="public" virt="non-virtual"><scope>dom::Question::buttonCond</scope><name>setNextQues</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

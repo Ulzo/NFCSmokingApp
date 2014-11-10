@@ -1,0 +1,582 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="classdom_1_1_question" kind="class" prot="package">
+    <compoundname>dom::Question</compoundname>
+    <innerclass refid="classdom_1_1_question_1_1button_cond" prot="package">dom::Question::buttonCond</innerclass>
+    <innerclass refid="classdom_1_1_question_1_1check_cond" prot="package">dom::Question::checkCond</innerclass>
+    <innerclass refid="classdom_1_1_question_1_1slider_cond" prot="package">dom::Question::sliderCond</innerclass>
+    <innerclass refid="classdom_1_1_question_1_1slider_info" prot="package">dom::Question::sliderInfo</innerclass>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classdom_1_1_question_1a098e28a7b0c6508614bea701554530a2" prot="package" static="no" mutable="no">
+        <type>String</type>
+        <definition>String dom.Question.QuesID</definition>
+        <argsstring></argsstring>
+        <name>QuesID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="330" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="330" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdom_1_1_question_1ad6011bf652c0f64dcd3c219518a24dff" prot="package" static="no" mutable="no">
+        <type>qType</type>
+        <definition>qType dom.Question.QuesType</definition>
+        <argsstring></argsstring>
+        <name>QuesType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="331" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="331" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdom_1_1_question_1a8d0f85b1e29cbbf848c52c21bebc991e" prot="package" static="no" mutable="no">
+        <type>String</type>
+        <definition>String dom.Question.question</definition>
+        <argsstring></argsstring>
+        <name>question</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="332" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="332" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdom_1_1_question_1a7a7c5d3089f12b41b43b7678adc922ee" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dom.Question.numChoices</definition>
+        <argsstring></argsstring>
+        <name>numChoices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="333" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="333" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdom_1_1_question_1ac806d1e4c0bbddeafbd6386d773823db" prot="package" static="no" mutable="no">
+        <type>ArrayList&lt; String &gt;</type>
+        <definition>ArrayList&lt;String&gt; dom.Question.choices</definition>
+        <argsstring></argsstring>
+        <name>choices</name>
+        <initializer>= new ArrayList&lt;String&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="334" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="334" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdom_1_1_question_1a76465365a008c3e1b47d909efa40f926" prot="package" static="no" mutable="no">
+        <type>sliderInfo</type>
+        <definition>sliderInfo dom.Question.slider</definition>
+        <argsstring></argsstring>
+        <name>slider</name>
+        <initializer>= new sliderInfo()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="442" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="442" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdom_1_1_question_1ac58eeffbef6ab6c0f9d9f2066d7879c4" prot="package" static="no" mutable="no">
+        <type>ArrayList&lt; buttonCond &gt;</type>
+        <definition>ArrayList&lt;buttonCond&gt; dom.Question.buttonCondition</definition>
+        <argsstring></argsstring>
+        <name>buttonCondition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="466" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="466" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdom_1_1_question_1a7fb5361d99beed27d2aef74eca747fbe" prot="package" static="no" mutable="no">
+        <type>ArrayList&lt; checkCond &gt;</type>
+        <definition>ArrayList&lt;checkCond&gt; dom.Question.checkConditions</definition>
+        <argsstring></argsstring>
+        <name>checkConditions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="486" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="486" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdom_1_1_question_1aa097bd0034d6c75b1fd8890054f89eb1" prot="package" static="no" mutable="no">
+        <type>sliderCond</type>
+        <definition>sliderCond dom.Question.sliderConditions</definition>
+        <argsstring></argsstring>
+        <name>sliderConditions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="537" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="537" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdom_1_1_question_1a06ab278a90696f059c991370a30506b6" prot="package" static="no" mutable="no">
+        <type>String</type>
+        <definition>String dom.Question.defaultNext</definition>
+        <argsstring></argsstring>
+        <name>defaultNext</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="538" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="538" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdom_1_1_question_1ab9d040e0767308a8839a0a22e0627cb3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String dom.Question.getQuesID</definition>
+        <argsstring>()</argsstring>
+        <name>getQuesID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="338" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="338" bodyend="340"/>
+      </memberdef>
+      <memberdef kind="function" id="classdom_1_1_question_1acaa6ad4c04e90f73a598caeb66cd5fde" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void dom.Question.setQuesID</definition>
+        <argsstring>(String quesID)</argsstring>
+        <name>setQuesID</name>
+        <param>
+          <type>String</type>
+          <declname>quesID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="341" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="341" bodyend="343"/>
+      </memberdef>
+      <memberdef kind="function" id="classdom_1_1_question_1aefc888a087ff29ffab2ef92c343e566b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>qType</type>
+        <definition>qType dom.Question.getQuesType</definition>
+        <argsstring>()</argsstring>
+        <name>getQuesType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="344" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="344" bodyend="346"/>
+      </memberdef>
+      <memberdef kind="function" id="classdom_1_1_question_1a74a34f5203814d1a9ef2ac7b624fef0e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void dom.Question.setQuesType</definition>
+        <argsstring>(qType quesType)</argsstring>
+        <name>setQuesType</name>
+        <param>
+          <type>qType</type>
+          <declname>quesType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="347" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="347" bodyend="349"/>
+      </memberdef>
+      <memberdef kind="function" id="classdom_1_1_question_1aec122e4893eadc1c3f52c813dfdd2183" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void dom.Question.setQuesType</definition>
+        <argsstring>(String quesType)</argsstring>
+        <name>setQuesType</name>
+        <param>
+          <type>String</type>
+          <declname>quesType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="351" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="351" bodyend="360"/>
+      </memberdef>
+      <memberdef kind="function" id="classdom_1_1_question_1a38a6a9bc12bb52d792dd1b34e66977d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String dom.Question.getQuestion</definition>
+        <argsstring>()</argsstring>
+        <name>getQuestion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="362" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="362" bodyend="364"/>
+      </memberdef>
+      <memberdef kind="function" id="classdom_1_1_question_1a886814da3fac3beedd1cd4471f74d275" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void dom.Question.setQuestion</definition>
+        <argsstring>(String question)</argsstring>
+        <name>setQuestion</name>
+        <param>
+          <type>String</type>
+          <declname>question</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="365" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="365" bodyend="367"/>
+      </memberdef>
+      <memberdef kind="function" id="classdom_1_1_question_1a47459aae934812f44931033ab59a9533" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int dom.Question.getNumChoices</definition>
+        <argsstring>()</argsstring>
+        <name>getNumChoices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="368" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="368" bodyend="370"/>
+      </memberdef>
+      <memberdef kind="function" id="classdom_1_1_question_1a6891b6b1ad2a4e65eb59fa52d5f2b437" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void dom.Question.setNumChoices</definition>
+        <argsstring>(int numChoices)</argsstring>
+        <name>setNumChoices</name>
+        <param>
+          <type>int</type>
+          <declname>numChoices</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="371" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="371" bodyend="373"/>
+      </memberdef>
+      <memberdef kind="function" id="classdom_1_1_question_1ac1aec61759baa99bceb0fdea9240f4ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ArrayList&lt; String &gt;</type>
+        <definition>ArrayList&lt;String&gt; dom.Question.getChoices</definition>
+        <argsstring>()</argsstring>
+        <name>getChoices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="376" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="376" bodyend="378"/>
+      </memberdef>
+      <memberdef kind="function" id="classdom_1_1_question_1a94d4ca822fdd637ed4ee62ce6333cb69" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void dom.Question.setChoices</definition>
+        <argsstring>(ArrayList&lt; String &gt; choices)</argsstring>
+        <name>setChoices</name>
+        <param>
+          <type>ArrayList&lt; String &gt;</type>
+          <declname>choices</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="379" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="379" bodyend="381"/>
+      </memberdef>
+      <memberdef kind="function" id="classdom_1_1_question_1a606de2d7550a25e0084e0f55d0e1abf1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int dom.Question.getChoicesSize</definition>
+        <argsstring>()</argsstring>
+        <name>getChoicesSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="383" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="383" bodyend="385"/>
+      </memberdef>
+      <memberdef kind="function" id="classdom_1_1_question_1abdab709635b65513be38e6d8eeb5e38c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void dom.Question.addToChoices</definition>
+        <argsstring>(String myChoice)</argsstring>
+        <name>addToChoices</name>
+        <param>
+          <type>String</type>
+          <declname>myChoice</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="388" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="387" bodyend="390"/>
+      </memberdef>
+      <memberdef kind="function" id="classdom_1_1_question_1abf84b49c81c1f8b818cd45ecb7f09071" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>sliderInfo</type>
+        <definition>sliderInfo dom.Question.getSlider</definition>
+        <argsstring>()</argsstring>
+        <name>getSlider</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="444" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="444" bodyend="446"/>
+      </memberdef>
+      <memberdef kind="function" id="classdom_1_1_question_1a854dada7055de0e796501a3a54c39e46" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ArrayList&lt; buttonCond &gt;</type>
+        <definition>ArrayList&lt;buttonCond&gt; dom.Question.getButtonCondition</definition>
+        <argsstring>()</argsstring>
+        <name>getButtonCondition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="490" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="490" bodyend="492"/>
+      </memberdef>
+      <memberdef kind="function" id="classdom_1_1_question_1a502c99f9e904c3c913fd72ac7fd92622" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void dom.Question.setButtonCondition</definition>
+        <argsstring>(ArrayList&lt; buttonCond &gt; buttonCondition)</argsstring>
+        <name>setButtonCondition</name>
+        <param>
+          <type>ArrayList&lt; buttonCond &gt;</type>
+          <declname>buttonCondition</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="493" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="493" bodyend="495"/>
+      </memberdef>
+      <memberdef kind="function" id="classdom_1_1_question_1ae19ee869800eba85888d69b7b210bea6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ArrayList&lt; checkCond &gt;</type>
+        <definition>ArrayList&lt;checkCond&gt; dom.Question.getCheckConditions</definition>
+        <argsstring>()</argsstring>
+        <name>getCheckConditions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="496" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="496" bodyend="498"/>
+      </memberdef>
+      <memberdef kind="function" id="classdom_1_1_question_1a2c89f52e0528351a8e81a79f8c373ea1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void dom.Question.setCheckConditions</definition>
+        <argsstring>(ArrayList&lt; checkCond &gt; checkConditions)</argsstring>
+        <name>setCheckConditions</name>
+        <param>
+          <type>ArrayList&lt; checkCond &gt;</type>
+          <declname>checkConditions</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="499" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="499" bodyend="501"/>
+      </memberdef>
+      <memberdef kind="function" id="classdom_1_1_question_1a633304e5f83794cd3e397af59d0dba0c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>sliderCond</type>
+        <definition>sliderCond dom.Question.getSliderConditions</definition>
+        <argsstring>()</argsstring>
+        <name>getSliderConditions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="502" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="502" bodyend="504"/>
+      </memberdef>
+      <memberdef kind="function" id="classdom_1_1_question_1acbb6dea0c91522ceb8216d2b812f76a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void dom.Question.setSliderConditions</definition>
+        <argsstring>(sliderCond sliderConditions)</argsstring>
+        <name>setSliderConditions</name>
+        <param>
+          <type>sliderCond</type>
+          <declname>sliderConditions</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="505" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="505" bodyend="507"/>
+      </memberdef>
+      <memberdef kind="function" id="classdom_1_1_question_1ab5a6e55166d1c68db5b52fd91eb6b99c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String dom.Question.getDefaultNext</definition>
+        <argsstring>()</argsstring>
+        <name>getDefaultNext</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="540" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="540" bodyend="542"/>
+      </memberdef>
+      <memberdef kind="function" id="classdom_1_1_question_1ac63ea7715bc775e47f1b88cdeac903d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void dom.Question.setDefaultNext</definition>
+        <argsstring>(String n1)</argsstring>
+        <name>setDefaultNext</name>
+        <param>
+          <type>String</type>
+          <declname>n1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="544" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="544" bodyend="546"/>
+      </memberdef>
+      <memberdef kind="function" id="classdom_1_1_question_1a8f7ab1bd5a4c3048590788358c3e4b14" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void dom.Question.parseCondition</definition>
+        <argsstring>(String condType, String bCond, String nextQ)</argsstring>
+        <name>parseCondition</name>
+        <param>
+          <type>String</type>
+          <declname>condType</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>bCond</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>nextQ</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="553" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="553" bodyend="693"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="34">
+        <label>dom.Question.sliderCond</label>
+      </node>
+      <node id="39">
+        <label>ArrayList&lt; buttonCond &gt;</label>
+      </node>
+      <node id="37">
+        <label>dom.Question.sliderInfo</label>
+      </node>
+      <node id="35">
+        <label>dom.qType</label>
+      </node>
+      <node id="33">
+        <label>dom.Question</label>
+        <childnode refid="34" relation="usage">
+          <edgelabel>sliderConditions</edgelabel>
+        </childnode>
+        <childnode refid="35" relation="usage">
+          <edgelabel>QuesType</edgelabel>
+        </childnode>
+        <childnode refid="36" relation="usage">
+          <edgelabel>checkConditions</edgelabel>
+        </childnode>
+        <childnode refid="37" relation="usage">
+          <edgelabel>slider</edgelabel>
+        </childnode>
+        <childnode refid="38" relation="usage">
+          <edgelabel>choices</edgelabel>
+        </childnode>
+        <childnode refid="39" relation="usage">
+          <edgelabel>buttonCondition</edgelabel>
+        </childnode>
+      </node>
+      <node id="36">
+        <label>ArrayList&lt; checkCond &gt;</label>
+      </node>
+      <node id="38">
+        <label>ArrayList&lt; String &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="329" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="328" bodyend="695"/>
+    <listofallmembers>
+      <member refid="classdom_1_1_question_1abdab709635b65513be38e6d8eeb5e38c" prot="public" virt="non-virtual"><scope>dom::Question</scope><name>addToChoices</name></member>
+      <member refid="classdom_1_1_question_1ac58eeffbef6ab6c0f9d9f2066d7879c4" prot="package" virt="non-virtual"><scope>dom::Question</scope><name>buttonCondition</name></member>
+      <member refid="classdom_1_1_question_1a7fb5361d99beed27d2aef74eca747fbe" prot="package" virt="non-virtual"><scope>dom::Question</scope><name>checkConditions</name></member>
+      <member refid="classdom_1_1_question_1ac806d1e4c0bbddeafbd6386d773823db" prot="package" virt="non-virtual"><scope>dom::Question</scope><name>choices</name></member>
+      <member refid="classdom_1_1_question_1a06ab278a90696f059c991370a30506b6" prot="package" virt="non-virtual"><scope>dom::Question</scope><name>defaultNext</name></member>
+      <member refid="classdom_1_1_question_1a854dada7055de0e796501a3a54c39e46" prot="public" virt="non-virtual"><scope>dom::Question</scope><name>getButtonCondition</name></member>
+      <member refid="classdom_1_1_question_1ae19ee869800eba85888d69b7b210bea6" prot="public" virt="non-virtual"><scope>dom::Question</scope><name>getCheckConditions</name></member>
+      <member refid="classdom_1_1_question_1ac1aec61759baa99bceb0fdea9240f4ae" prot="public" virt="non-virtual"><scope>dom::Question</scope><name>getChoices</name></member>
+      <member refid="classdom_1_1_question_1a606de2d7550a25e0084e0f55d0e1abf1" prot="public" virt="non-virtual"><scope>dom::Question</scope><name>getChoicesSize</name></member>
+      <member refid="classdom_1_1_question_1ab5a6e55166d1c68db5b52fd91eb6b99c" prot="public" virt="non-virtual"><scope>dom::Question</scope><name>getDefaultNext</name></member>
+      <member refid="classdom_1_1_question_1a47459aae934812f44931033ab59a9533" prot="public" virt="non-virtual"><scope>dom::Question</scope><name>getNumChoices</name></member>
+      <member refid="classdom_1_1_question_1ab9d040e0767308a8839a0a22e0627cb3" prot="public" virt="non-virtual"><scope>dom::Question</scope><name>getQuesID</name></member>
+      <member refid="classdom_1_1_question_1a38a6a9bc12bb52d792dd1b34e66977d1" prot="public" virt="non-virtual"><scope>dom::Question</scope><name>getQuestion</name></member>
+      <member refid="classdom_1_1_question_1aefc888a087ff29ffab2ef92c343e566b" prot="public" virt="non-virtual"><scope>dom::Question</scope><name>getQuesType</name></member>
+      <member refid="classdom_1_1_question_1abf84b49c81c1f8b818cd45ecb7f09071" prot="public" virt="non-virtual"><scope>dom::Question</scope><name>getSlider</name></member>
+      <member refid="classdom_1_1_question_1a633304e5f83794cd3e397af59d0dba0c" prot="public" virt="non-virtual"><scope>dom::Question</scope><name>getSliderConditions</name></member>
+      <member refid="classdom_1_1_question_1a7a7c5d3089f12b41b43b7678adc922ee" prot="package" virt="non-virtual"><scope>dom::Question</scope><name>numChoices</name></member>
+      <member refid="classdom_1_1_question_1a8f7ab1bd5a4c3048590788358c3e4b14" prot="public" virt="non-virtual"><scope>dom::Question</scope><name>parseCondition</name></member>
+      <member refid="classdom_1_1_question_1a098e28a7b0c6508614bea701554530a2" prot="package" virt="non-virtual"><scope>dom::Question</scope><name>QuesID</name></member>
+      <member refid="classdom_1_1_question_1a8d0f85b1e29cbbf848c52c21bebc991e" prot="package" virt="non-virtual"><scope>dom::Question</scope><name>question</name></member>
+      <member refid="classdom_1_1_question_1ad6011bf652c0f64dcd3c219518a24dff" prot="package" virt="non-virtual"><scope>dom::Question</scope><name>QuesType</name></member>
+      <member refid="classdom_1_1_question_1a502c99f9e904c3c913fd72ac7fd92622" prot="public" virt="non-virtual"><scope>dom::Question</scope><name>setButtonCondition</name></member>
+      <member refid="classdom_1_1_question_1a2c89f52e0528351a8e81a79f8c373ea1" prot="public" virt="non-virtual"><scope>dom::Question</scope><name>setCheckConditions</name></member>
+      <member refid="classdom_1_1_question_1a94d4ca822fdd637ed4ee62ce6333cb69" prot="public" virt="non-virtual"><scope>dom::Question</scope><name>setChoices</name></member>
+      <member refid="classdom_1_1_question_1ac63ea7715bc775e47f1b88cdeac903d9" prot="public" virt="non-virtual"><scope>dom::Question</scope><name>setDefaultNext</name></member>
+      <member refid="classdom_1_1_question_1a6891b6b1ad2a4e65eb59fa52d5f2b437" prot="public" virt="non-virtual"><scope>dom::Question</scope><name>setNumChoices</name></member>
+      <member refid="classdom_1_1_question_1acaa6ad4c04e90f73a598caeb66cd5fde" prot="public" virt="non-virtual"><scope>dom::Question</scope><name>setQuesID</name></member>
+      <member refid="classdom_1_1_question_1a886814da3fac3beedd1cd4471f74d275" prot="public" virt="non-virtual"><scope>dom::Question</scope><name>setQuestion</name></member>
+      <member refid="classdom_1_1_question_1a74a34f5203814d1a9ef2ac7b624fef0e" prot="public" virt="non-virtual"><scope>dom::Question</scope><name>setQuesType</name></member>
+      <member refid="classdom_1_1_question_1aec122e4893eadc1c3f52c813dfdd2183" prot="public" virt="non-virtual"><scope>dom::Question</scope><name>setQuesType</name></member>
+      <member refid="classdom_1_1_question_1acbb6dea0c91522ceb8216d2b812f76a4" prot="public" virt="non-virtual"><scope>dom::Question</scope><name>setSliderConditions</name></member>
+      <member refid="classdom_1_1_question_1a76465365a008c3e1b47d909efa40f926" prot="package" virt="non-virtual"><scope>dom::Question</scope><name>slider</name></member>
+      <member refid="classdom_1_1_question_1aa097bd0034d6c75b1fd8890054f89eb1" prot="package" virt="non-virtual"><scope>dom::Question</scope><name>sliderConditions</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

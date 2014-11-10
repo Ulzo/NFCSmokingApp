@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="classdom_1_1_my_error_handler" kind="class" prot="package">
+    <compoundname>dom::MyErrorHandler</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ErrorHandler</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classdom_1_1_my_error_handler_1aed79c29bb642d2293163dee58055dc41" prot="private" static="no" mutable="no">
+        <type>PrintWriter</type>
+        <definition>PrintWriter dom.MyErrorHandler.out</definition>
+        <argsstring></argsstring>
+        <name>out</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/MyErrorHandler.java" line="11" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/MyErrorHandler.java" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="classdom_1_1_my_error_handler_1ab2388941eebfc0ce7d2e06f7866a18ee" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>dom.MyErrorHandler.MyErrorHandler</definition>
+        <argsstring>(PrintWriter out)</argsstring>
+        <name>MyErrorHandler</name>
+        <param>
+          <type>PrintWriter</type>
+          <declname>out</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/MyErrorHandler.java" line="13" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/MyErrorHandler.java" bodystart="13" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classdom_1_1_my_error_handler_1afabf2e79953f2a1e49a0eb3bbb514635" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String dom.MyErrorHandler.getParseExceptionInfo</definition>
+        <argsstring>(SAXParseException spe)</argsstring>
+        <name>getParseExceptionInfo</name>
+        <param>
+          <type>SAXParseException</type>
+          <declname>spe</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/MyErrorHandler.java" line="17" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/MyErrorHandler.java" bodystart="17" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdom_1_1_my_error_handler_1a57a66b58d91a83fced3540af23d59519" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void dom.MyErrorHandler.warning</definition>
+        <argsstring>(SAXParseException spe)</argsstring>
+        <name>warning</name>
+        <param>
+          <type>SAXParseException</type>
+          <declname>spe</declname>
+        </param>
+        <exceptions> throws SAXException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/MyErrorHandler.java" line="28" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/MyErrorHandler.java" bodystart="28" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classdom_1_1_my_error_handler_1aec722a418fd1724fa793232ceb35805e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void dom.MyErrorHandler.error</definition>
+        <argsstring>(SAXParseException spe)</argsstring>
+        <name>error</name>
+        <param>
+          <type>SAXParseException</type>
+          <declname>spe</declname>
+        </param>
+        <exceptions> throws SAXException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/MyErrorHandler.java" line="32" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/MyErrorHandler.java" bodystart="32" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classdom_1_1_my_error_handler_1a6955f34a2f6da3588bb69b1e23828a39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void dom.MyErrorHandler.fatalError</definition>
+        <argsstring>(SAXParseException spe)</argsstring>
+        <name>fatalError</name>
+        <param>
+          <type>SAXParseException</type>
+          <declname>spe</declname>
+        </param>
+        <exceptions> throws SAXException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/MyErrorHandler.java" line="37" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/MyErrorHandler.java" bodystart="37" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>ErrorHandler</label>
+      </node>
+      <node id="4">
+        <label>dom.MyErrorHandler</label>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="7">
+        <label>ErrorHandler</label>
+      </node>
+      <node id="6">
+        <label>dom.MyErrorHandler</label>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/MyErrorHandler.java" line="9" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/MyErrorHandler.java" bodystart="9" bodyend="41"/>
+    <listofallmembers>
+      <member refid="classdom_1_1_my_error_handler_1aec722a418fd1724fa793232ceb35805e" prot="public" virt="non-virtual"><scope>dom::MyErrorHandler</scope><name>error</name></member>
+      <member refid="classdom_1_1_my_error_handler_1a6955f34a2f6da3588bb69b1e23828a39" prot="public" virt="non-virtual"><scope>dom::MyErrorHandler</scope><name>fatalError</name></member>
+      <member refid="classdom_1_1_my_error_handler_1afabf2e79953f2a1e49a0eb3bbb514635" prot="private" virt="non-virtual"><scope>dom::MyErrorHandler</scope><name>getParseExceptionInfo</name></member>
+      <member refid="classdom_1_1_my_error_handler_1ab2388941eebfc0ce7d2e06f7866a18ee" prot="package" virt="non-virtual"><scope>dom::MyErrorHandler</scope><name>MyErrorHandler</name></member>
+      <member refid="classdom_1_1_my_error_handler_1aed79c29bb642d2293163dee58055dc41" prot="private" virt="non-virtual"><scope>dom::MyErrorHandler</scope><name>out</name></member>
+      <member refid="classdom_1_1_my_error_handler_1a57a66b58d91a83fced3540af23d59519" prot="public" virt="non-virtual"><scope>dom::MyErrorHandler</scope><name>warning</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

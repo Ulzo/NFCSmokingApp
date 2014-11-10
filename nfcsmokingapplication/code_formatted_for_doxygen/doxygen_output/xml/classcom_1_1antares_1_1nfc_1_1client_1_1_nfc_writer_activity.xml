@@ -1,0 +1,309 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_writer_activity" kind="class" prot="public">
+    <compoundname>com::antares::nfc::client::NfcWriterActivity</compoundname>
+    <basecompoundref refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_detector_activity" prot="public" virt="non-virtual">com.antares.nfc.client.NfcDetectorActivity</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">NdefWriterListener</basecompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_writer_activity_1a0e92848a522f3d54682567d6917dff19" prot="protected" static="no" mutable="no">
+        <type>NdefWriter</type>
+        <definition>NdefWriter com.antares.nfc.client.NfcWriterActivity.writer</definition>
+        <argsstring></argsstring>
+        <name>writer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/NfcWriterActivity.java" line="35" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/NfcWriterActivity.java" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_writer_activity_1a131f2cc39c82a9b9a71e57a92954346f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.antares.nfc.client.NfcWriterActivity.mRowCount</definition>
+        <argsstring></argsstring>
+        <name>mRowCount</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/NfcWriterActivity.java" line="36" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/NfcWriterActivity.java" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_writer_activity_1a286d884b9018fe9c6f61bff3eb4dd772" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.antares.nfc.client.NfcWriterActivity.onCreate</definition>
+        <argsstring>(Bundle savedInstanceState)</argsstring>
+        <name>onCreate</name>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/NfcWriterActivity.java" line="39" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/NfcWriterActivity.java" bodystart="39" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_writer_activity_1ad5e6ab5a491a1a2dc70619ff065a959e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.antares.nfc.client.NfcWriterActivity.nfcIntentDetected</definition>
+        <argsstring>(Intent intent, String action)</argsstring>
+        <name>nfcIntentDetected</name>
+        <param>
+          <type>Intent</type>
+          <declname>intent</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/NfcWriterActivity.java" line="61" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/NfcWriterActivity.java" bodystart="61" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_writer_activity_1a46ad8df85e3e0fc3ddff77b67ab604b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.antares.nfc.client.NfcWriterActivity.writeNdefFormattedFailed</definition>
+        <argsstring>(Exception e)</argsstring>
+        <name>writeNdefFormattedFailed</name>
+        <param>
+          <type>Exception</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/NfcWriterActivity.java" line="143" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/NfcWriterActivity.java" bodystart="143" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_writer_activity_1a2b6e3789093dcd97743c8118b02a0fed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.antares.nfc.client.NfcWriterActivity.writeNdefUnformattedFailed</definition>
+        <argsstring>(Exception e)</argsstring>
+        <name>writeNdefUnformattedFailed</name>
+        <param>
+          <type>Exception</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/NfcWriterActivity.java" line="150" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/NfcWriterActivity.java" bodystart="150" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_writer_activity_1a3223f926a446a5e4375b0b5f58855174" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.antares.nfc.client.NfcWriterActivity.writeNdefNotWritable</definition>
+        <argsstring>()</argsstring>
+        <name>writeNdefNotWritable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/NfcWriterActivity.java" line="157" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/NfcWriterActivity.java" bodystart="157" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_writer_activity_1ad60bd059832966e6ee5f76da9ed35613" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.antares.nfc.client.NfcWriterActivity.writeNdefTooSmall</definition>
+        <argsstring>(int required, int capacity)</argsstring>
+        <name>writeNdefTooSmall</name>
+        <param>
+          <type>int</type>
+          <declname>required</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>capacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/NfcWriterActivity.java" line="164" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/NfcWriterActivity.java" bodystart="164" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_writer_activity_1a8ff48d6ce31edde12fa033f66d7e2d18" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.antares.nfc.client.NfcWriterActivity.writeNdefCannotWriteTech</definition>
+        <argsstring>()</argsstring>
+        <name>writeNdefCannotWriteTech</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/NfcWriterActivity.java" line="171" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/NfcWriterActivity.java" bodystart="171" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_writer_activity_1a6d15c26d70d2fc6f6593b59640b572ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.antares.nfc.client.NfcWriterActivity.wroteNdefFormatted</definition>
+        <argsstring>()</argsstring>
+        <name>wroteNdefFormatted</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/NfcWriterActivity.java" line="178" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/NfcWriterActivity.java" bodystart="178" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_writer_activity_1ac38e2e17279e1aad0758f38e3b373516" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.antares.nfc.client.NfcWriterActivity.wroteNdefUnformatted</definition>
+        <argsstring>()</argsstring>
+        <name>wroteNdefUnformatted</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/NfcWriterActivity.java" line="186" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/NfcWriterActivity.java" bodystart="186" bodyend="189"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_writer_activity_1a1fd3f54e7193761d478fdbc08d2698db" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void com.antares.nfc.client.NfcWriterActivity.onNfcFeatureFound</definition>
+        <argsstring>()</argsstring>
+        <name>onNfcFeatureFound</name>
+        <reimplements refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_detector_activity_1a22d1a07dc46d63772b15c7f317376fde">onNfcFeatureFound</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/NfcWriterActivity.java" line="47" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/NfcWriterActivity.java" bodystart="47" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_writer_activity_1a74617658543e0b2a904bd7bc49a86180" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void com.antares.nfc.client.NfcWriterActivity.onNfcFeatureNotFound</definition>
+        <argsstring>()</argsstring>
+        <name>onNfcFeatureNotFound</name>
+        <reimplements refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_detector_activity_1a2c9bf9db9285df2509546787663ed789">onNfcFeatureNotFound</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/NfcWriterActivity.java" line="56" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/NfcWriterActivity.java" bodystart="56" bodyend="58"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Activity for writing NFC tags.</para><para><simplesect kind="author"><para>Thomas Rorvik Skjolberg </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="17">
+        <label>com.antares.nfc.client.NfcDetectorActivity</label>
+        <link refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_detector_activity"/>
+        <childnode refid="18" relation="public-inheritance">
+        </childnode>
+        <childnode refid="19" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>Activity</label>
+      </node>
+      <node id="19">
+        <label>NfcDetector::NfcIntentListener</label>
+      </node>
+      <node id="16">
+        <label>com.antares.nfc.client.NfcWriterActivity</label>
+        <link refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_writer_activity"/>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+        <childnode refid="20" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>NdefWriterListener</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="27">
+        <label>NdefWriter</label>
+      </node>
+      <node id="22">
+        <label>com.antares.nfc.client.NfcDetectorActivity</label>
+        <link refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_detector_activity"/>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+        <childnode refid="24" relation="public-inheritance">
+        </childnode>
+        <childnode refid="25" relation="usage">
+          <edgelabel>detector</edgelabel>
+        </childnode>
+      </node>
+      <node id="23">
+        <label>Activity</label>
+      </node>
+      <node id="24">
+        <label>NfcDetector::NfcIntentListener</label>
+      </node>
+      <node id="25">
+        <label>NfcDetector</label>
+      </node>
+      <node id="21">
+        <label>com.antares.nfc.client.NfcWriterActivity</label>
+        <link refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_writer_activity"/>
+        <childnode refid="22" relation="public-inheritance">
+        </childnode>
+        <childnode refid="26" relation="public-inheritance">
+        </childnode>
+        <childnode refid="27" relation="usage">
+          <edgelabel>writer</edgelabel>
+        </childnode>
+      </node>
+      <node id="26">
+        <label>NdefWriterListener</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/NfcWriterActivity.java" line="33" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/NfcWriterActivity.java" bodystart="33" bodyend="235"/>
+    <listofallmembers>
+      <member refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_detector_activity_1a1435827516fee4c1415e663c48dd4358" prot="protected" virt="non-virtual"><scope>com::antares::nfc::client::NfcWriterActivity</scope><name>detector</name></member>
+      <member refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_detector_activity_1aa778540027b88801aba0321cb30382d3" prot="protected" virt="non-virtual"><scope>com::antares::nfc::client::NfcWriterActivity</scope><name>intentProcessed</name></member>
+      <member refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_writer_activity_1a131f2cc39c82a9b9a71e57a92954346f" prot="private" virt="non-virtual"><scope>com::antares::nfc::client::NfcWriterActivity</scope><name>mRowCount</name></member>
+      <member refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_writer_activity_1ad5e6ab5a491a1a2dc70619ff065a959e" prot="public" virt="non-virtual"><scope>com::antares::nfc::client::NfcWriterActivity</scope><name>nfcIntentDetected</name></member>
+      <member refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_writer_activity_1a286d884b9018fe9c6f61bff3eb4dd772" prot="public" virt="non-virtual"><scope>com::antares::nfc::client::NfcWriterActivity</scope><name>onCreate</name></member>
+      <member refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_detector_activity_1a4fbe91d3c6235471e5fdc2e1973f76c6" prot="public" virt="non-virtual"><scope>com::antares::nfc::client::NfcWriterActivity</scope><name>onNewIntent</name></member>
+      <member refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_writer_activity_1a1fd3f54e7193761d478fdbc08d2698db" prot="protected" virt="virtual"><scope>com::antares::nfc::client::NfcWriterActivity</scope><name>onNfcFeatureFound</name></member>
+      <member refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_writer_activity_1a74617658543e0b2a904bd7bc49a86180" prot="protected" virt="virtual"><scope>com::antares::nfc::client::NfcWriterActivity</scope><name>onNfcFeatureNotFound</name></member>
+      <member refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_detector_activity_1a62eb608c6fd24c7c89ddb73a8a3a8c20" prot="protected" virt="non-virtual"><scope>com::antares::nfc::client::NfcWriterActivity</scope><name>onPause</name></member>
+      <member refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_detector_activity_1a96e49bf9db69c159474d4e19db883bc2" prot="protected" virt="non-virtual"><scope>com::antares::nfc::client::NfcWriterActivity</scope><name>onResume</name></member>
+      <member refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_detector_activity_1a5860272da6c6369b91b461cedb0111a9" prot="protected" virt="non-virtual"><scope>com::antares::nfc::client::NfcWriterActivity</scope><name>TAG</name></member>
+      <member refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_writer_activity_1a8ff48d6ce31edde12fa033f66d7e2d18" prot="public" virt="non-virtual"><scope>com::antares::nfc::client::NfcWriterActivity</scope><name>writeNdefCannotWriteTech</name></member>
+      <member refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_writer_activity_1a46ad8df85e3e0fc3ddff77b67ab604b9" prot="public" virt="non-virtual"><scope>com::antares::nfc::client::NfcWriterActivity</scope><name>writeNdefFormattedFailed</name></member>
+      <member refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_writer_activity_1a3223f926a446a5e4375b0b5f58855174" prot="public" virt="non-virtual"><scope>com::antares::nfc::client::NfcWriterActivity</scope><name>writeNdefNotWritable</name></member>
+      <member refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_writer_activity_1ad60bd059832966e6ee5f76da9ed35613" prot="public" virt="non-virtual"><scope>com::antares::nfc::client::NfcWriterActivity</scope><name>writeNdefTooSmall</name></member>
+      <member refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_writer_activity_1a2b6e3789093dcd97743c8118b02a0fed" prot="public" virt="non-virtual"><scope>com::antares::nfc::client::NfcWriterActivity</scope><name>writeNdefUnformattedFailed</name></member>
+      <member refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_writer_activity_1a0e92848a522f3d54682567d6917dff19" prot="protected" virt="non-virtual"><scope>com::antares::nfc::client::NfcWriterActivity</scope><name>writer</name></member>
+      <member refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_writer_activity_1a6d15c26d70d2fc6f6593b59640b572ec" prot="public" virt="non-virtual"><scope>com::antares::nfc::client::NfcWriterActivity</scope><name>wroteNdefFormatted</name></member>
+      <member refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_writer_activity_1ac38e2e17279e1aad0758f38e3b373516" prot="public" virt="non-virtual"><scope>com::antares::nfc::client::NfcWriterActivity</scope><name>wroteNdefUnformatted</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,26 @@
+[Slider]
+[How Happy Are You Right Now? (1 == Very Unhappy, 10 == Very Happy)]
+[1,10,1]
+
+[Button]
+[What is your favorite cigarette brand?]
+[Newport,Marlboro,Virginia Slims,Camel,Other]
+
+[Check]
+[How many cigarettes do you smoke per hour?]
+[Less than one,One,Two,Three,More than three]
+
+[Slider]
+[How much do you want to smoke right now? (1 == Very Much, 5 == Not at all]
+[1,5,1]
+
+[Check]
+[How long has it been since you last smoked?]
+[Less than an hour,About an hour,More than two hours,More than a day]
+
+
+[Button]
+[How many other people are in the room with you right now?]
+[0,1,2,3,4,More than 4]
+
+

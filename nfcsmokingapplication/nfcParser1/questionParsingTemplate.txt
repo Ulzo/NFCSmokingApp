@@ -1,0 +1,12 @@
+Question Parsing
+
+[QuestionType]		// slider, button, check, 
+[QuestionText]		// the entire question needs to be 
+[NumberOfAnswers]	// an integer value > 0 (may have a maximum at some point)
+
+// if Question Type == slider, then
+[MinValue,MaxValue,Increment]		// all are ints (may implement double, float, etc. types later)
+
+// all other QuestionType
+[Answer1, Answer2, .. , AnswerN]		// each Answer is parsed as a string
+

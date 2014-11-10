@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_detector_activity" kind="class" prot="public" abstract="yes">
+    <compoundname>com::antares::nfc::client::NfcDetectorActivity</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Activity</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">NfcIntentListener</basecompoundref>
+    <derivedcompoundref refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_writer_activity" prot="public" virt="non-virtual">com.antares.nfc.client.NfcWriterActivity</derivedcompoundref>
+      <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_detector_activity_1a5860272da6c6369b91b461cedb0111a9" prot="protected" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String com.antares.nfc.client.NfcDetectorActivity.TAG</definition>
+        <argsstring></argsstring>
+        <name>TAG</name>
+        <initializer>= NfcDetectorActivity.class.getSimpleName()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/NfcDetectorActivity.java" line="21" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/NfcDetectorActivity.java" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_detector_activity_1a1435827516fee4c1415e663c48dd4358" prot="protected" static="no" mutable="no">
+        <type>NfcDetector</type>
+        <definition>NfcDetector com.antares.nfc.client.NfcDetectorActivity.detector</definition>
+        <argsstring></argsstring>
+        <name>detector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/NfcDetectorActivity.java" line="23" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/NfcDetectorActivity.java" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_detector_activity_1aa778540027b88801aba0321cb30382d3" prot="protected" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean com.antares.nfc.client.NfcDetectorActivity.intentProcessed</definition>
+        <argsstring></argsstring>
+        <name>intentProcessed</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/NfcDetectorActivity.java" line="25" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/NfcDetectorActivity.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_detector_activity_1af75be68d62cd34fa7edc134096aeb603" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.antares.nfc.client.NfcDetectorActivity.onCreate</definition>
+        <argsstring>(Bundle savedInstanceState)</argsstring>
+        <name>onCreate</name>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/NfcDetectorActivity.java" line="28" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/NfcDetectorActivity.java" bodystart="28" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_detector_activity_1a4fbe91d3c6235471e5fdc2e1973f76c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.antares.nfc.client.NfcDetectorActivity.onNewIntent</definition>
+        <argsstring>(Intent intent)</argsstring>
+        <name>onNewIntent</name>
+        <param>
+          <type>Intent</type>
+          <declname>intent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/NfcDetectorActivity.java" line="73" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/NfcDetectorActivity.java" bodystart="73" bodyend="81"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_detector_activity_1a2c9bf9db9285df2509546787663ed789" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void com.antares.nfc.client.NfcDetectorActivity.onNfcFeatureNotFound</definition>
+        <argsstring>()</argsstring>
+        <name>onNfcFeatureNotFound</name>
+        <reimplementedby refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_writer_activity_1a74617658543e0b2a904bd7bc49a86180">onNfcFeatureNotFound</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/NfcDetectorActivity.java" line="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_detector_activity_1a22d1a07dc46d63772b15c7f317376fde" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void com.antares.nfc.client.NfcDetectorActivity.onNfcFeatureFound</definition>
+        <argsstring>()</argsstring>
+        <name>onNfcFeatureFound</name>
+        <reimplementedby refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_writer_activity_1a1fd3f54e7193761d478fdbc08d2698db">onNfcFeatureFound</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/NfcDetectorActivity.java" line="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_detector_activity_1a96e49bf9db69c159474d4e19db883bc2" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.antares.nfc.client.NfcDetectorActivity.onResume</definition>
+        <argsstring>()</argsstring>
+        <name>onResume</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/NfcDetectorActivity.java" line="49" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/NfcDetectorActivity.java" bodystart="49" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_detector_activity_1a62eb608c6fd24c7c89ddb73a8a3a8c20" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.antares.nfc.client.NfcDetectorActivity.onPause</definition>
+        <argsstring>()</argsstring>
+        <name>onPause</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/NfcDetectorActivity.java" line="64" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/NfcDetectorActivity.java" bodystart="64" bodyend="70"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Abstract activity for detecting NFC tags.</para><para><simplesect kind="author"><para>Thomas Rorvik Skjolberg </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="8">
+        <label>com.antares.nfc.client.NfcDetectorActivity</label>
+        <link refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_detector_activity"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>Activity</label>
+      </node>
+      <node id="10">
+        <label>NfcDetector::NfcIntentListener</label>
+      </node>
+      <node id="11">
+        <label>com.antares.nfc.client.NfcWriterActivity</label>
+        <link refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_writer_activity"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="12">
+        <label>com.antares.nfc.client.NfcDetectorActivity</label>
+        <link refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_detector_activity"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+        <childnode refid="14" relation="public-inheritance">
+        </childnode>
+        <childnode refid="15" relation="usage">
+          <edgelabel>detector</edgelabel>
+        </childnode>
+      </node>
+      <node id="13">
+        <label>Activity</label>
+      </node>
+      <node id="14">
+        <label>NfcDetector::NfcIntentListener</label>
+      </node>
+      <node id="15">
+        <label>NfcDetector</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/NfcDetectorActivity.java" line="19" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/NfcDetectorActivity.java" bodystart="19" bodyend="83"/>
+    <listofallmembers>
+      <member refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_detector_activity_1a1435827516fee4c1415e663c48dd4358" prot="protected" virt="non-virtual"><scope>com::antares::nfc::client::NfcDetectorActivity</scope><name>detector</name></member>
+      <member refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_detector_activity_1aa778540027b88801aba0321cb30382d3" prot="protected" virt="non-virtual"><scope>com::antares::nfc::client::NfcDetectorActivity</scope><name>intentProcessed</name></member>
+      <member refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_detector_activity_1af75be68d62cd34fa7edc134096aeb603" prot="public" virt="non-virtual"><scope>com::antares::nfc::client::NfcDetectorActivity</scope><name>onCreate</name></member>
+      <member refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_detector_activity_1a4fbe91d3c6235471e5fdc2e1973f76c6" prot="public" virt="non-virtual"><scope>com::antares::nfc::client::NfcDetectorActivity</scope><name>onNewIntent</name></member>
+      <member refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_detector_activity_1a22d1a07dc46d63772b15c7f317376fde" prot="protected" virt="pure-virtual"><scope>com::antares::nfc::client::NfcDetectorActivity</scope><name>onNfcFeatureFound</name></member>
+      <member refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_detector_activity_1a2c9bf9db9285df2509546787663ed789" prot="protected" virt="pure-virtual"><scope>com::antares::nfc::client::NfcDetectorActivity</scope><name>onNfcFeatureNotFound</name></member>
+      <member refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_detector_activity_1a62eb608c6fd24c7c89ddb73a8a3a8c20" prot="protected" virt="non-virtual"><scope>com::antares::nfc::client::NfcDetectorActivity</scope><name>onPause</name></member>
+      <member refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_detector_activity_1a96e49bf9db69c159474d4e19db883bc2" prot="protected" virt="non-virtual"><scope>com::antares::nfc::client::NfcDetectorActivity</scope><name>onResume</name></member>
+      <member refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_detector_activity_1a5860272da6c6369b91b461cedb0111a9" prot="protected" virt="non-virtual"><scope>com::antares::nfc::client::NfcDetectorActivity</scope><name>TAG</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

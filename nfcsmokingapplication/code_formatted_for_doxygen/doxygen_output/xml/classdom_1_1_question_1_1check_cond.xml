@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="classdom_1_1_question_1_1check_cond" kind="class" prot="package">
+    <compoundname>dom::Question::checkCond</compoundname>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classdom_1_1_question_1_1check_cond_1aceda7446d5c0a5565905e919720c3c8f" prot="package" static="no" mutable="no">
+        <type>String</type>
+        <definition>String dom.Question.checkCond.cond</definition>
+        <argsstring></argsstring>
+        <name>cond</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="470" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="470" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdom_1_1_question_1_1check_cond_1a5124e5108fe6057522eafc715a54c761" prot="package" static="no" mutable="no">
+        <type>String</type>
+        <definition>String dom.Question.checkCond.nextQues</definition>
+        <argsstring></argsstring>
+        <name>nextQues</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="471" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="471" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdom_1_1_question_1_1check_cond_1a35f6cee21f55fb2393475a721d37a9ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String dom.Question.checkCond.getCond</definition>
+        <argsstring>()</argsstring>
+        <name>getCond</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="473" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="473" bodyend="475"/>
+      </memberdef>
+      <memberdef kind="function" id="classdom_1_1_question_1_1check_cond_1a6376ce34e857d533507674955e46e9f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void dom.Question.checkCond.setCond</definition>
+        <argsstring>(String cond)</argsstring>
+        <name>setCond</name>
+        <param>
+          <type>String</type>
+          <declname>cond</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="476" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="476" bodyend="478"/>
+      </memberdef>
+      <memberdef kind="function" id="classdom_1_1_question_1_1check_cond_1aca3d97b9a4d7e3ebe2919a91ee38d322" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String dom.Question.checkCond.getNextQues</definition>
+        <argsstring>()</argsstring>
+        <name>getNextQues</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="479" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="479" bodyend="481"/>
+      </memberdef>
+      <memberdef kind="function" id="classdom_1_1_question_1_1check_cond_1a83ffda2b396c863c30c26f3e304a2eab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void dom.Question.checkCond.setNextQues</definition>
+        <argsstring>(String nextQues)</argsstring>
+        <name>setNextQues</name>
+        <param>
+          <type>String</type>
+          <declname>nextQues</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="482" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="482" bodyend="484"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" line="469" bodyfile="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/parserDOM.java" bodystart="468" bodyend="485"/>
+    <listofallmembers>
+      <member refid="classdom_1_1_question_1_1check_cond_1aceda7446d5c0a5565905e919720c3c8f" prot="package" virt="non-virtual"><scope>dom::Question::checkCond</scope><name>cond</name></member>
+      <member refid="classdom_1_1_question_1_1check_cond_1a35f6cee21f55fb2393475a721d37a9ac" prot="public" virt="non-virtual"><scope>dom::Question::checkCond</scope><name>getCond</name></member>
+      <member refid="classdom_1_1_question_1_1check_cond_1aca3d97b9a4d7e3ebe2919a91ee38d322" prot="public" virt="non-virtual"><scope>dom::Question::checkCond</scope><name>getNextQues</name></member>
+      <member refid="classdom_1_1_question_1_1check_cond_1a5124e5108fe6057522eafc715a54c761" prot="package" virt="non-virtual"><scope>dom::Question::checkCond</scope><name>nextQues</name></member>
+      <member refid="classdom_1_1_question_1_1check_cond_1a6376ce34e857d533507674955e46e9f8" prot="public" virt="non-virtual"><scope>dom::Question::checkCond</scope><name>setCond</name></member>
+      <member refid="classdom_1_1_question_1_1check_cond_1a83ffda2b396c863c30c26f3e304a2eab" prot="public" virt="non-virtual"><scope>dom::Question::checkCond</scope><name>setNextQues</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

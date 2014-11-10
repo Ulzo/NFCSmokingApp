@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="dir_0a2ec1baedd9adad4503f8fe41953226" kind="dir">
+    <compoundname>C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen</compoundname>
+    <innerfile refid="_my_error_handler_8java">MyErrorHandler.java</innerfile>
+    <innerfile refid="_nfc_detector_activity_8java">NfcDetectorActivity.java</innerfile>
+    <innerfile refid="_nfc_writer_activity_8java">NfcWriterActivity.java</innerfile>
+    <innerfile refid="parser_d_o_m_8java">parserDOM.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/"/>
+  </compounddef>
+</doxygen>

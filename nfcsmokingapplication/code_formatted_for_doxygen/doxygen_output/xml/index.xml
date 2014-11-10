@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.2">
+  <compound refid="classdom_1_1_question_1_1button_cond" kind="class"><name>dom::Question::buttonCond</name>
+    <member refid="classdom_1_1_question_1_1button_cond_1a74e5d46252d10c7661b2cd61907b602a" kind="variable"><name>cond</name></member>
+    <member refid="classdom_1_1_question_1_1button_cond_1a5631242d3dce7a6c56f087e711a7fc3e" kind="variable"><name>nextQues</name></member>
+    <member refid="classdom_1_1_question_1_1button_cond_1a5b1f8f47de0f679455662546128270a9" kind="function"><name>getCond</name></member>
+    <member refid="classdom_1_1_question_1_1button_cond_1a828db1a130f96fc1de1d3276767118f0" kind="function"><name>setCond</name></member>
+    <member refid="classdom_1_1_question_1_1button_cond_1ae1c2027313e707378d21c282a01f0f4d" kind="function"><name>getNextQues</name></member>
+    <member refid="classdom_1_1_question_1_1button_cond_1a22297083c38d0dd489b07e3001b4d14b" kind="function"><name>setNextQues</name></member>
+  </compound>
+  <compound refid="classdom_1_1_question_1_1check_cond" kind="class"><name>dom::Question::checkCond</name>
+    <member refid="classdom_1_1_question_1_1check_cond_1aceda7446d5c0a5565905e919720c3c8f" kind="variable"><name>cond</name></member>
+    <member refid="classdom_1_1_question_1_1check_cond_1a5124e5108fe6057522eafc715a54c761" kind="variable"><name>nextQues</name></member>
+    <member refid="classdom_1_1_question_1_1check_cond_1a35f6cee21f55fb2393475a721d37a9ac" kind="function"><name>getCond</name></member>
+    <member refid="classdom_1_1_question_1_1check_cond_1a6376ce34e857d533507674955e46e9f8" kind="function"><name>setCond</name></member>
+    <member refid="classdom_1_1_question_1_1check_cond_1aca3d97b9a4d7e3ebe2919a91ee38d322" kind="function"><name>getNextQues</name></member>
+    <member refid="classdom_1_1_question_1_1check_cond_1a83ffda2b396c863c30c26f3e304a2eab" kind="function"><name>setNextQues</name></member>
+  </compound>
+  <compound refid="classdom_1_1_my_error_handler" kind="class"><name>dom::MyErrorHandler</name>
+    <member refid="classdom_1_1_my_error_handler_1aed79c29bb642d2293163dee58055dc41" kind="variable"><name>out</name></member>
+    <member refid="classdom_1_1_my_error_handler_1ab2388941eebfc0ce7d2e06f7866a18ee" kind="function"><name>MyErrorHandler</name></member>
+    <member refid="classdom_1_1_my_error_handler_1afabf2e79953f2a1e49a0eb3bbb514635" kind="function"><name>getParseExceptionInfo</name></member>
+    <member refid="classdom_1_1_my_error_handler_1a57a66b58d91a83fced3540af23d59519" kind="function"><name>warning</name></member>
+    <member refid="classdom_1_1_my_error_handler_1aec722a418fd1724fa793232ceb35805e" kind="function"><name>error</name></member>
+    <member refid="classdom_1_1_my_error_handler_1a6955f34a2f6da3588bb69b1e23828a39" kind="function"><name>fatalError</name></member>
+  </compound>
+  <compound refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_detector_activity" kind="class"><name>com::antares::nfc::client::NfcDetectorActivity</name>
+    <member refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_detector_activity_1a5860272da6c6369b91b461cedb0111a9" kind="variable"><name>TAG</name></member>
+    <member refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_detector_activity_1a1435827516fee4c1415e663c48dd4358" kind="variable"><name>detector</name></member>
+    <member refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_detector_activity_1aa778540027b88801aba0321cb30382d3" kind="variable"><name>intentProcessed</name></member>
+    <member refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_detector_activity_1af75be68d62cd34fa7edc134096aeb603" kind="function"><name>onCreate</name></member>
+    <member refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_detector_activity_1a4fbe91d3c6235471e5fdc2e1973f76c6" kind="function"><name>onNewIntent</name></member>
+    <member refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_detector_activity_1a2c9bf9db9285df2509546787663ed789" kind="function"><name>onNfcFeatureNotFound</name></member>
+    <member refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_detector_activity_1a22d1a07dc46d63772b15c7f317376fde" kind="function"><name>onNfcFeatureFound</name></member>
+    <member refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_detector_activity_1a96e49bf9db69c159474d4e19db883bc2" kind="function"><name>onResume</name></member>
+    <member refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_detector_activity_1a62eb608c6fd24c7c89ddb73a8a3a8c20" kind="function"><name>onPause</name></member>
+  </compound>
+  <compound refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_writer_activity" kind="class"><name>com::antares::nfc::client::NfcWriterActivity</name>
+    <member refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_writer_activity_1a0e92848a522f3d54682567d6917dff19" kind="variable"><name>writer</name></member>
+    <member refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_writer_activity_1a131f2cc39c82a9b9a71e57a92954346f" kind="variable"><name>mRowCount</name></member>
+    <member refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_writer_activity_1a286d884b9018fe9c6f61bff3eb4dd772" kind="function"><name>onCreate</name></member>
+    <member refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_writer_activity_1ad5e6ab5a491a1a2dc70619ff065a959e" kind="function"><name>nfcIntentDetected</name></member>
+    <member refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_writer_activity_1a46ad8df85e3e0fc3ddff77b67ab604b9" kind="function"><name>writeNdefFormattedFailed</name></member>
+    <member refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_writer_activity_1a2b6e3789093dcd97743c8118b02a0fed" kind="function"><name>writeNdefUnformattedFailed</name></member>
+    <member refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_writer_activity_1a3223f926a446a5e4375b0b5f58855174" kind="function"><name>writeNdefNotWritable</name></member>
+    <member refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_writer_activity_1ad60bd059832966e6ee5f76da9ed35613" kind="function"><name>writeNdefTooSmall</name></member>
+    <member refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_writer_activity_1a8ff48d6ce31edde12fa033f66d7e2d18" kind="function"><name>writeNdefCannotWriteTech</name></member>
+    <member refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_writer_activity_1a6d15c26d70d2fc6f6593b59640b572ec" kind="function"><name>wroteNdefFormatted</name></member>
+    <member refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_writer_activity_1ac38e2e17279e1aad0758f38e3b373516" kind="function"><name>wroteNdefUnformatted</name></member>
+    <member refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_writer_activity_1a1fd3f54e7193761d478fdbc08d2698db" kind="function"><name>onNfcFeatureFound</name></member>
+    <member refid="classcom_1_1antares_1_1nfc_1_1client_1_1_nfc_writer_activity_1a74617658543e0b2a904bd7bc49a86180" kind="function"><name>onNfcFeatureNotFound</name></member>
+  </compound>
+  <compound refid="classdom_1_1parser_d_o_m" kind="class"><name>dom::parserDOM</name>
+    <member refid="classdom_1_1parser_d_o_m_1ad2a42f3385e9274826b8d9acbc0f1cb8" kind="function"><name>getAllQuestions</name></member>
+    <member refid="classdom_1_1parser_d_o_m_1a6a2b93ad9c1d7df4389acfb72b8eaae0" kind="function"><name>printElementText</name></member>
+    <member refid="classdom_1_1parser_d_o_m_1a62ef7cc4cb3aa12ffc13ad438a1a4a60" kind="function"><name>extractElementText</name></member>
+    <member refid="classdom_1_1parser_d_o_m_1af5173cf0851432cba3a91a90d69c1c4c" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="enumdom_1_1q_type" kind="enum"><name>dom::qType</name>
+    <member refid="enumdom_1_1q_type_1a0958ff3ee8862c6fc6070f080830ef21" kind="variable"><name>button</name></member>
+    <member refid="enumdom_1_1q_type_1a0f31ba57fb8d273e69320de7c949f0e6" kind="variable"><name>check</name></member>
+    <member refid="enumdom_1_1q_type_1aef2dbd432894af60ad0e3dcf7a2d236f" kind="variable"><name>slider</name></member>
+    <member refid="enumdom_1_1q_type_1abaadad9a08da2c81230b74a0af878bf8" kind="variable"><name>radio</name></member>
+  </compound>
+  <compound refid="classdom_1_1_question" kind="class"><name>dom::Question</name>
+    <member refid="classdom_1_1_question_1a098e28a7b0c6508614bea701554530a2" kind="variable"><name>QuesID</name></member>
+    <member refid="classdom_1_1_question_1ad6011bf652c0f64dcd3c219518a24dff" kind="variable"><name>QuesType</name></member>
+    <member refid="classdom_1_1_question_1a8d0f85b1e29cbbf848c52c21bebc991e" kind="variable"><name>question</name></member>
+    <member refid="classdom_1_1_question_1a7a7c5d3089f12b41b43b7678adc922ee" kind="variable"><name>numChoices</name></member>
+    <member refid="classdom_1_1_question_1ac806d1e4c0bbddeafbd6386d773823db" kind="variable"><name>choices</name></member>
+    <member refid="classdom_1_1_question_1a76465365a008c3e1b47d909efa40f926" kind="variable"><name>slider</name></member>
+    <member refid="classdom_1_1_question_1ac58eeffbef6ab6c0f9d9f2066d7879c4" kind="variable"><name>buttonCondition</name></member>
+    <member refid="classdom_1_1_question_1a7fb5361d99beed27d2aef74eca747fbe" kind="variable"><name>checkConditions</name></member>
+    <member refid="classdom_1_1_question_1aa097bd0034d6c75b1fd8890054f89eb1" kind="variable"><name>sliderConditions</name></member>
+    <member refid="classdom_1_1_question_1a06ab278a90696f059c991370a30506b6" kind="variable"><name>defaultNext</name></member>
+    <member refid="classdom_1_1_question_1ab9d040e0767308a8839a0a22e0627cb3" kind="function"><name>getQuesID</name></member>
+    <member refid="classdom_1_1_question_1acaa6ad4c04e90f73a598caeb66cd5fde" kind="function"><name>setQuesID</name></member>
+    <member refid="classdom_1_1_question_1aefc888a087ff29ffab2ef92c343e566b" kind="function"><name>getQuesType</name></member>
+    <member refid="classdom_1_1_question_1a74a34f5203814d1a9ef2ac7b624fef0e" kind="function"><name>setQuesType</name></member>
+    <member refid="classdom_1_1_question_1aec122e4893eadc1c3f52c813dfdd2183" kind="function"><name>setQuesType</name></member>
+    <member refid="classdom_1_1_question_1a38a6a9bc12bb52d792dd1b34e66977d1" kind="function"><name>getQuestion</name></member>
+    <member refid="classdom_1_1_question_1a886814da3fac3beedd1cd4471f74d275" kind="function"><name>setQuestion</name></member>
+    <member refid="classdom_1_1_question_1a47459aae934812f44931033ab59a9533" kind="function"><name>getNumChoices</name></member>
+    <member refid="classdom_1_1_question_1a6891b6b1ad2a4e65eb59fa52d5f2b437" kind="function"><name>setNumChoices</name></member>
+    <member refid="classdom_1_1_question_1ac1aec61759baa99bceb0fdea9240f4ae" kind="function"><name>getChoices</name></member>
+    <member refid="classdom_1_1_question_1a94d4ca822fdd637ed4ee62ce6333cb69" kind="function"><name>setChoices</name></member>
+    <member refid="classdom_1_1_question_1a606de2d7550a25e0084e0f55d0e1abf1" kind="function"><name>getChoicesSize</name></member>
+    <member refid="classdom_1_1_question_1abdab709635b65513be38e6d8eeb5e38c" kind="function"><name>addToChoices</name></member>
+    <member refid="classdom_1_1_question_1abf84b49c81c1f8b818cd45ecb7f09071" kind="function"><name>getSlider</name></member>
+    <member refid="classdom_1_1_question_1a854dada7055de0e796501a3a54c39e46" kind="function"><name>getButtonCondition</name></member>
+    <member refid="classdom_1_1_question_1a502c99f9e904c3c913fd72ac7fd92622" kind="function"><name>setButtonCondition</name></member>
+    <member refid="classdom_1_1_question_1ae19ee869800eba85888d69b7b210bea6" kind="function"><name>getCheckConditions</name></member>
+    <member refid="classdom_1_1_question_1a2c89f52e0528351a8e81a79f8c373ea1" kind="function"><name>setCheckConditions</name></member>
+    <member refid="classdom_1_1_question_1a633304e5f83794cd3e397af59d0dba0c" kind="function"><name>getSliderConditions</name></member>
+    <member refid="classdom_1_1_question_1acbb6dea0c91522ceb8216d2b812f76a4" kind="function"><name>setSliderConditions</name></member>
+    <member refid="classdom_1_1_question_1ab5a6e55166d1c68db5b52fd91eb6b99c" kind="function"><name>getDefaultNext</name></member>
+    <member refid="classdom_1_1_question_1ac63ea7715bc775e47f1b88cdeac903d9" kind="function"><name>setDefaultNext</name></member>
+    <member refid="classdom_1_1_question_1a8f7ab1bd5a4c3048590788358c3e4b14" kind="function"><name>parseCondition</name></member>
+  </compound>
+  <compound refid="classdom_1_1_question_1_1slider_cond" kind="class"><name>dom::Question::sliderCond</name>
+    <member refid="classdom_1_1_question_1_1slider_cond_1ae3d0ff7dd0e781dfacb0b6933a36e731" kind="variable"><name>upperLim</name></member>
+    <member refid="classdom_1_1_question_1_1slider_cond_1a62385bea01650ea89a6762b404355684" kind="variable"><name>lowerLim</name></member>
+    <member refid="classdom_1_1_question_1_1slider_cond_1a13d941ac6182cedc5ffd7a8756eda803" kind="variable"><name>nextQues</name></member>
+    <member refid="classdom_1_1_question_1_1slider_cond_1ac3ce8c4e4592820226ef59c0b681c16b" kind="function"><name>getUpperLim</name></member>
+    <member refid="classdom_1_1_question_1_1slider_cond_1a1cef77bb37441752f2ff4772e8cdca9a" kind="function"><name>setUpperLim</name></member>
+    <member refid="classdom_1_1_question_1_1slider_cond_1afdaa69b4fc5738ea7770ef5e7c513b12" kind="function"><name>getLowerLim</name></member>
+    <member refid="classdom_1_1_question_1_1slider_cond_1a4ed970fd92bce6f1bdc97f5ae9fcff52" kind="function"><name>setLowerLim</name></member>
+    <member refid="classdom_1_1_question_1_1slider_cond_1acd2f21383479f9b5f367068a4457f4bf" kind="function"><name>getNextQues</name></member>
+    <member refid="classdom_1_1_question_1_1slider_cond_1a5fbe3ec0d567b277038ce0a801c2d797" kind="function"><name>setNextQues</name></member>
+  </compound>
+  <compound refid="classdom_1_1_question_1_1slider_info" kind="class"><name>dom::Question::sliderInfo</name>
+    <member refid="classdom_1_1_question_1_1slider_info_1a9ae5a7b46473218da028de96d1caf38b" kind="variable"><name>start</name></member>
+    <member refid="classdom_1_1_question_1_1slider_info_1a8f58466d2bd3dc4207e4cd11c3e828e0" kind="variable"><name>end</name></member>
+    <member refid="classdom_1_1_question_1_1slider_info_1ae182034f47e6ede5080f2c4db29275d9" kind="variable"><name>numDiv</name></member>
+    <member refid="classdom_1_1_question_1_1slider_info_1a9df472f3ad83490fa398558bf25d1dd8" kind="variable"><name>startLabel</name></member>
+    <member refid="classdom_1_1_question_1_1slider_info_1ae5f518b54b9eee67b0ba062a64aefaf1" kind="variable"><name>middleLabel</name></member>
+    <member refid="classdom_1_1_question_1_1slider_info_1a951c1a759e2532c7a43132245c098871" kind="variable"><name>endLabel</name></member>
+    <member refid="classdom_1_1_question_1_1slider_info_1af6cbec35ac87ecd7f66c0859e9c065aa" kind="function"><name>getStart</name></member>
+    <member refid="classdom_1_1_question_1_1slider_info_1a3e857a6a79019a6eb43f263f6c3de608" kind="function"><name>setStart</name></member>
+    <member refid="classdom_1_1_question_1_1slider_info_1ad2f745568479438644e034d885c6e477" kind="function"><name>getEnd</name></member>
+    <member refid="classdom_1_1_question_1_1slider_info_1a1cf317f62baadfac74e88eef8e46087c" kind="function"><name>setEnd</name></member>
+    <member refid="classdom_1_1_question_1_1slider_info_1a42080c82e53937dead25f3b54ded3583" kind="function"><name>getNumDiv</name></member>
+    <member refid="classdom_1_1_question_1_1slider_info_1a506c6182f96e4d2d18f40136bddaabd6" kind="function"><name>setNumDiv</name></member>
+    <member refid="classdom_1_1_question_1_1slider_info_1ae2e7d9ef1c9a83395ecef05b2eb939d0" kind="function"><name>getStartLabel</name></member>
+    <member refid="classdom_1_1_question_1_1slider_info_1a0d674d64fd90f85718d438a12e05890f" kind="function"><name>setStartLabel</name></member>
+    <member refid="classdom_1_1_question_1_1slider_info_1a80af163b27114dde6bbeb8ff7687218a" kind="function"><name>getMiddleLabel</name></member>
+    <member refid="classdom_1_1_question_1_1slider_info_1add7571b7dfe427b77d9d33b132362438" kind="function"><name>setMiddleLabel</name></member>
+    <member refid="classdom_1_1_question_1_1slider_info_1a0cca46c183efb060d578264caa75c685" kind="function"><name>getEndLabel</name></member>
+    <member refid="classdom_1_1_question_1_1slider_info_1a2b21d966f49374d8b6d77fe409f62476" kind="function"><name>setEndLabel</name></member>
+  </compound>
+  <compound refid="namespacecom" kind="namespace"><name>com</name>
+  </compound>
+  <compound refid="namespacecom_1_1antares" kind="namespace"><name>com::antares</name>
+  </compound>
+  <compound refid="namespacecom_1_1antares_1_1nfc" kind="namespace"><name>com::antares::nfc</name>
+  </compound>
+  <compound refid="namespacecom_1_1antares_1_1nfc_1_1client" kind="namespace"><name>com::antares::nfc::client</name>
+  </compound>
+  <compound refid="namespacedom" kind="namespace"><name>dom</name>
+  </compound>
+  <compound refid="_my_error_handler_8java" kind="file"><name>MyErrorHandler.java</name>
+  </compound>
+  <compound refid="_nfc_detector_activity_8java" kind="file"><name>NfcDetectorActivity.java</name>
+  </compound>
+  <compound refid="_nfc_writer_activity_8java" kind="file"><name>NfcWriterActivity.java</name>
+  </compound>
+  <compound refid="parser_d_o_m_8java" kind="file"><name>parserDOM.java</name>
+  </compound>
+  <compound refid="dir_0a2ec1baedd9adad4503f8fe41953226" kind="dir"><name>C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen</name>
+  </compound>
+  <compound refid="dir_2941b5e57aab984c874791558bcd2640" kind="dir"><name>C:/Users/cwallace</name>
+  </compound>
+  <compound refid="dir_a719999e72ba9bfbbedf43d008d11614" kind="dir"><name>C:/Users/cwallace/repos/nfc_nov_26</name>
+  </compound>
+  <compound refid="dir_f2702d53373fe3c14843a712098a40ab" kind="dir"><name>C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication</name>
+  </compound>
+  <compound refid="dir_3c2ac6c3a1855c831e72157650e56ca7" kind="dir"><name>C:/Users/cwallace/repos</name>
+  </compound>
+  <compound refid="dir_8ceffd4ee35c3518d4e8bdc7e638efe8" kind="dir"><name>C:/Users</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,73 @@
+.TH "com.antares.nfc.client.NfcWriterActivity" 3 "Mon Nov 26 2012" "CS_340_Health_Survey_App" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+com.antares.nfc.client.NfcWriterActivity \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBcom\&.antares\&.nfc\&.client\&.NfcDetectorActivity\fP, and NdefWriterListener\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBonCreate\fP (Bundle savedInstanceState)"
+.br
+.ti -1c
+.RI "void \fBnfcIntentDetected\fP (Intent intent, String action)"
+.br
+.ti -1c
+.RI "void \fBwriteNdefFormattedFailed\fP (Exception e)"
+.br
+.ti -1c
+.RI "void \fBwriteNdefUnformattedFailed\fP (Exception e)"
+.br
+.ti -1c
+.RI "void \fBwriteNdefNotWritable\fP ()"
+.br
+.ti -1c
+.RI "void \fBwriteNdefTooSmall\fP (int required, int capacity)"
+.br
+.ti -1c
+.RI "void \fBwriteNdefCannotWriteTech\fP ()"
+.br
+.ti -1c
+.RI "void \fBwroteNdefFormatted\fP ()"
+.br
+.ti -1c
+.RI "void \fBwroteNdefUnformatted\fP ()"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBonNfcFeatureFound\fP ()"
+.br
+.ti -1c
+.RI "void \fBonNfcFeatureNotFound\fP ()"
+.br
+.in -1c
+.SS "Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "NdefWriter \fBwriter\fP"
+.br
+.in -1c
+.SS "Additional Inherited Members"
+.SH "Detailed Description"
+.PP 
+Activity for writing NFC tags\&.
+.PP
+\fBAuthor:\fP
+.RS 4
+Thomas Rorvik Skjolberg 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for CS_340_Health_Survey_App from the source code\&.

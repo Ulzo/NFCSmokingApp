@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="namespacedom" kind="namespace">
+    <compoundname>dom</compoundname>
+    <innerclass refid="classdom_1_1_my_error_handler" prot="package">dom::MyErrorHandler</innerclass>
+    <innerclass refid="enumdom_1_1q_type" prot="package">dom::qType</innerclass>
+    <innerclass refid="classdom_1_1parser_d_o_m" prot="public">dom::parserDOM</innerclass>
+    <innerclass refid="classdom_1_1_question" prot="package">dom::Question</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/cwallace/repos/nfc_nov_26/nfcsmokingapplication/code_formatted_for_doxygen/MyErrorHandler.java" line="1"/>
+  </compounddef>
+</doxygen>
